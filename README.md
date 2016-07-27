@@ -5,7 +5,9 @@ This is a repository of various codes, data, and methodological notes used in a 
 
 One of the main objective of this research was to track the circulation of freedom of panorama related discurses within the public sphere. Therefore, we have used a combination of text mining techniques, first experimented on XIXth century periodicals. During the past ten years, libraries have digitized newspapers archives in the public domain on a massive scale and made them increasingly available for research purposes: since december 2015, it is possible to download all the items of major European dailies in [Europeana](http://data.theeuropeanlibrary.org/download/newspapers-by-country/README.html) and, therefore, analyze wide corpora using current (correspondence analysis, word embedding) or specific (virality detection) text mining tools.
 
-Applying the same methods to contemporary press seems apparently easier. Given the texts have always been digital, there is no issue of optical character recognition. The coverage of news aggregator appears much more extensive than that of digital libraries. We have used mainly two of these meta-sources: Google News and, for the French corpus, Europresse (a proprietary database accessible through university credentials).
+Applying the same methods to contemporary press seems apparently easier. Given the texts have always been digital, there is no issue of optical character recognition. The coverage of news aggregator appears much more extensive than that of digital libraries. We have used mainly two of these meta-sources: 
+* 115 articles in English and several other languages from the result of the query "Freedom of Panorama" on Google News.
+* 136 articles in French from the result of the query "Liberté de Panorama" Europresse (a proprietary database accessible through university credentials).
 
 ###Methodological difficulties (and *caveats*)
 
