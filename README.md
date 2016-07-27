@@ -11,11 +11,11 @@ Applying the same methods to contemporary press seems apparently easier. Given t
 
 Yet, extensive does not mean comprehensive or, even, representative. We have been faced with several difficulties:
 
-**The corpora are not meant for text mining use** Europresse and Google News are mainly structured for casual human reading and not for intensive extraction. Besides, in the Google case, text mining is expressely forbidden and discouraged. For instance, we have been previously blocked as a result of a very similar project: [extracting scientific articles on Google Scholar](https://scoms.hypotheses.org/216). Several tricks allows to override this anti-bot policy such as aleatory downloading (to make believe the extraction is processed by a humans) or regular IP renewal with tor (so that Google believes the extraction is done by several people).
+**The corpora are not meant for text mining use** Europresse and Google News are mainly structured for casual human reading and not for intensive extraction. Besides, in the Google case, text mining is expressely forbidden and discouraged. For instance, we have been previously blocked as a result of a very similar project: [extracting scientific articles on Google Scholar](https://scoms.hypotheses.org/216). Several tricks allows to override this anti-bot policy such as random downloading (to make believe the extraction is processed by a humans) or regular IP renewal with tor (so that Google believes the extraction is done by several people).
 
 <p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/google_scholar.png></p>
 
-*An efficient trick to avoid text mining blocks: using Tor to masquerade as another IP (here, assuming the identity of a polish user).*
+<p align="center"><em>An efficient trick to avoid text mining blocks: using Tor to masquerade as another IP (here, assuming the identity of a polish user).</em></p>
 
 **The selection of the aggregator remains opaque**. On the whole, Europresse is more documented on regional sources that are not always well indexed on the web whereas Google News achieves a better coverage of pure player. Beyond theses leading unofficial editorial policies numerous seemingly arbitrary choices appear to be made. 
 
