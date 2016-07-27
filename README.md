@@ -15,7 +15,7 @@ Yet, extensive does not mean comprehensive or, even, representative. We have bee
 
 <p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/google_scholar.png></p>
 
-<p align="center"><em>An efficient trick to avoid text mining blocks: using Tor to masquerade as another IP (here, assuming the identity of a polish user).</em></p>
+<p align="center"><em>An efficient trick to avoid text mining blocks:<br/> using Tor to masquerade as another IP (here, assuming the identity of a polish user).</em></p>
 
 **The selection of the aggregator remains opaque**. On the whole, Europresse is more documented on regional sources that are not always well indexed on the web whereas Google News achieves a better coverage of pure player. Beyond theses leading unofficial editorial policies numerous seemingly arbitrary choices appear to be made. 
 
