@@ -7,10 +7,14 @@ One of the main objective of this research was to track the circulation of freed
 
 Applying the same methods to contemporary press seems apparently easier. Given the texts have always been digital, there is no issue of optical character recognition. The coverage of news aggregator appears much more extensive than that of digital libraries. We have used mainly two of these meta-sources: Google News and, for the French corpus, Europresse (a proprietary database accessible through university credentials).
 
+###Methodological difficulties (and *caveats*)
+
 Yet, extensive does not mean comprehensive or, even, representative. We have been faced with several difficulties:
 
 **The corpora are not meant for text mining use** Europresse and Google News are mainly structured for casual human reading and not for intensive extraction. Besides, in the Google case, text mining is expressely forbidden and discouraged. For instance, we have been previously blocked as a result of a very similar project: [extracting scientific articles on Google Scholar](https://scoms.hypotheses.org/216). Several tricks allows to override this anti-bot policy such as aleatory downloading (to make believe the extraction is processed by a humans) or regular IP renewal with tor (so that Google believes the extraction is done by several people).
+
 ![alt text](https://github.com/Dorialexander/FreedomOfPanorama/raw/master/google_scholar.png)
+
 *An efficient trick to avoid text mining blocks: using Tor to masquerade as another IP (here, assuming the identity of a polish user).*
 
 **The selection of the aggregator remains opaque**. On the whole, Europresse is more documented on regional sources that are not always well indexed on the web whereas Google News achieves a better coverage of pure player. Beyond theses leading unofficial editorial policies numerous seemingly arbitrary choices appear to be made. 
