@@ -23,7 +23,7 @@ Yet, extensive does not mean comprehensive or, even, representative. We have bee
 
 **The selection is “contaminated” by irrelevant results**. Google News frequently add texts on allegedly “close” topic, even if the expression “Freedom of Panorama” is not explicitly stated. Given the analysis is mostly stylistic, theses results have been removed from our corpora. Besides, the crawling algorithm takes the original web page as a whole, which not only include the main article but also comments and news feeds. 
 
-##A methodological twist: using Google News to represent itself
+###A methodological twist: Google News represents itself!
 
 On most of theses methodological aspects, Europresse fares better than Google News. Yet, Google News still has a significant advantage: it is actually read by millions of europeans, who use the aggregator as their prime portal to media and view the evolving news agenda from theses (somewhat distorted) lenses. If there's a leading (rather than comprehensive) panorama of the public sphere debate surrounding Freedom of panorama it is undisputedly on Google News. This de facto concentration of news reading practices has stirred numerous economic and legal debate. The June 2016 EU consultation on Freedom of panorama was therefore paired with a consultation on granting neighboring rights to publishers and, possibly, restraining secondary providers the right to link or to quote news.
 
