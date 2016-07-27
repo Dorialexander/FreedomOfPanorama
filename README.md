@@ -1,5 +1,5 @@
-# FreedomOfPanorama
-This is a repository of various codes, data, and methodological notes used in a research article on Freedom of Panorama.
+# Freedom Of Panorama
+This is a repository of various codes, data, and methodological notes used in a research article on Freedom of Panorama. 
 
 ## Doing text mining with Google News and Europresse
 
@@ -9,6 +9,7 @@ Applying the same methods to contemporary press seems apparently easier. Given t
 
 Yet, extensive does not mean comprehensive or, even, representative. We have been faced with several difficulties:
 * **The corpora are not meant for text mining use** Europresse and Google News are mainly structured for casual human reading and not for intensive extraction. Besides, in the Google case, text mining is expressely forbidden and discouraged. For instance, we have been previously blocked as a result of a very similar project: [extracting scientific articles on Google Scholar](https://scoms.hypotheses.org/216). Several tricks allows to override this anti-bot policy such as aleatory downloading (to make believe the extraction is processed by a humans) or regular IP renewal with tor (so that Google believes the extraction is done by several people).
+![alt text](https://github.com/Dorialexander/FreedomOfPanorama/raw/master/google_scholar.png)
 * **The selection of the aggregator remains opaque**. On the whole, Europresse is more documented on regional sources that are not always well indexed on the web whereas Google News achieves a better coverage of pure player. Beyond theses leading unofficial editorial policies numerous seemingly arbitrary choices appear to be made. 
 * **The results are not always consistent**. While we were very cautious to consult Google News in a private mode in order to avoid activating customized search processes, there were still regular variations in the size and content of the selection. Apparently, that’s a regular feature of search engines: each query can be processed by different servers; while the first pages are generally stable, the content of “deeper” pages heavily depends on the indexed database available to the targeted server. Older results seems to “disappear” from Google News : while freedom of panorama is clearly an emerging issues, we have spotted several articles published before 2015 that did not make their way.
 * **The selection is “contaminated” by irrelevant results**. Google News frequently add texts on allegedly “close” topic, even if the expression “Freedom of Panorama” is not explicitly stated. Given the analysis is mostly stylistic, theses results have been removed from our corpora. Besides, the crawling algorithm takes the original web page as a whole, which not only include the main article but also comments and news feeds. 
