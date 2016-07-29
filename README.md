@@ -1,4 +1,4 @@
-# Freedom Of Panorama
+# Freedom Of Panorama Supplementary Data Paper
 This is a repository of various codes, data, and methodological notes used in a research article on Freedom of Panorama. 
 
 ## Doing text mining with Google News and Europresse
@@ -65,5 +65,6 @@ for elem in file:
 
 The initial corpus of almost 160 articles was therefore reduced by about one fourth to 115 articles to create the dataset "[gg_news_all_language.csv](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/ggnews_all_languages.csv)".
 
-The articles were then extracted on a copy-paste method. Unfortunately the wide variability of html use accross the newspapers prevented using efficient automated parsing (which would have really paid off on a much larger corpus). Each article was classed by language. While the high diversity of our corpus was a significant piece of information, we focused our textual analytics on the 67 English articles (listed in "[gg_news_en.csv](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/gg_news_en.csv)"). Reproducing the cleaned corpus would be at loss with existing EU copyright laws: while all theses articles are "free to read", they are not "free to copy". For replication purposes, it should still be possible to reconstruct our collection using the list of link.
+The articles were then extracted on a copy-paste method. Unfortunately the wide variability of html use accross the newspapers prevented using efficient automated parsing (which would have really paid off on a much larger corpus). Each article was classed by language. While the high diversity of our corpus was a significant piece of information, we focused our textual analysis on the 67 English articles (listed in "[gg_news_en.csv](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/gg_news_en.csv)"). Reproducing the cleaned corpus would be at loss with existing EU copyright laws: while all theses articles are "free to read", they are not "free to copy". For replication purposes, it should still be possible to reconstruct our collection using the list of link.
 
+###Europresse
