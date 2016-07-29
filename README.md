@@ -31,6 +31,8 @@ On most of theses methodological aspects, Europresse fares better than Google Ne
 
 Therefore, each corpus will be considered on different ground. While Europresse maps not so imperfectly the general dynamics of French news, Google News is chiefly representative of Google News (that is of the main digital platform through which readers discover news). Paradoxically enough, even in this tautological approach, Google News is not completely reliable: as we showed it previously, results change and disappear from time to time and are potentially generated in a different way from one consultation to another. All theses biases remain nevertheless far more limited than if we used Google News as a valid representation of all news.
 
+##Extracting the articles
+
 ###The extraction process of Google News.
 
 All the result pages (in html) of the query "freedom of panorama" were registered locally. Several parsing functions then allowed to transform the html structure as a dataset of links, article title, date and media name. In the same manneer we have removed some duplicated results (by checking if a title were already in the dataset). Some time, Google News issued results that did not includ the proper name "freedom of panorama" and usually talked about a different topic (albeit somewhat linked). We have consequently removed every result that did not mention the expression "freedom of panorama" in the snippets. The initial corpora of almost 160 articles were therefore reduced by about one fourth to 115 articles.
