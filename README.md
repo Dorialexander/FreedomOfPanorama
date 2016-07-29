@@ -35,7 +35,7 @@ Therefore, each corpus will be considered on different ground. While Europresse 
 
 ###Google News.
 
-All the result pages (in html) of the query "freedom of panorama" were registered locally. Several parsing functions (within [extract_ggnews.py](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/extract_ggnews.py)) then allowed to transform the html structure as a dataset of links, article title, date and media name. In the same manneer we have removed some duplicated results (by checking if a title were already in the dataset). Some time, Google News issued results that did not includ the proper name "freedom of panorama" and usually talked about a different topic (albeit somewhat linked). We have consequently removed every result that did not mention the expression "freedom of panorama" in the snippets. 
+All the result pages (in html) of the query "freedom of panorama" were registered locally. Several parsing functions (within [extract_ggnews.py](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/extract_ggnews.py)) then allowed to transform the html structure as a dataset of links, article title, date and media name. Some time, Google News issued results that did not includ the proper name "freedom of panorama" and usually talked about a different topic (albeit somewhat linked). We have consequently removed every result that did not mention the expression "panorama" in the snippets. 
 
 ```python
 #"anorama" rather than panorama as a lazy way to avoid taking caps into account…
@@ -47,6 +47,20 @@ if "anorama" in snippet:
 	except:
 		date = "unknown"
 	print(fullid + ";" + title + ";" + href + ";" + media + ";" + date)
+```
+
+In the same manneer we have removed some duplicated results by checking if a title were already in the dataset. We used a "fuzzy" match rather than a strict string comparison to take into account small variations (for instance regarding punctuations).
+
+```python
+for elem in file:
+	try:
+		title = elem.split(';')[1].lower()
+		test = 0
+		for comp in comparefile:
+			if (fuzz.ratio(title, comp)>70):
+				duplicatelist.append(elem)
+	except:
+		pass
 ```
 
 The initial corpus of almost 160 articles was therefore reduced by about one fourth to 115 articles to create the dataset "[gg_news_all_language.csv](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/ggnews_all_languages.csv)".
