@@ -93,4 +93,4 @@ Yet, we are not constrained on Iramuteq default visual settings. Given that the 
 load("path_to_iramuteq_files")
 ```
 
-The script "[panorama.R]()" includes a set of functions to generate ggplot from Iramuteq data. 
+The script "[panorama.R]()" includes a set of functions to generate [ggplot](https://cran.r-project.org/web/packages/ggplot2/index.html) graphics from Iramuteq data. 
