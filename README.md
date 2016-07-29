@@ -72,3 +72,9 @@ The articles were then extracted on a copy-paste method. Unfortunately the wide 
 Europresse is easier to use for text mining purposes : the actual text is already separated from its original editorial context. Besides, the coverage is both wider and more stable than on Google News (as it even seems to aggregate sources that are not accessible online). Nevertheless, the proprietary nature of the database and its accessibility focused on French universities greatly limits its replicative value.
 
 All the HTML files of the articles of Europresse were saved locally. The function "ira_article" in  "[extract_europresse.py](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/extract_europresse.py)" allows a direct transformation of HTML to the txt format used by iramuteq.
+
+##Analyzing the articles
+
+###Iramuteq
+
+Iramuteq is a free interface of the R langage for textual analysis.
