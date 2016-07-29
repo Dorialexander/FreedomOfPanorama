@@ -42,7 +42,6 @@ def google_article(com_dir):
 						print(fullid + ";" + title + ";" + href + ";" + media + ";" + date)						
 					else:
 						pass
-					print(fullid + ";" + title + ";" + href + ";" + media + ";" + date)
 
 
 #Allow to remove the duplicates in the Google News dataset : every similar title (with fuzz ratio to take into account minor changes)
