@@ -77,4 +77,14 @@ All the HTML files of the articles of Europresse were saved locally. The functio
 
 ###Iramuteq
 
-[Iramuteq](http://www.iramuteq.org/) is a free interface of the R langage for textual analysis. It offers an efficient pipelpine for existing R functions (in library such as [TM](https://cran.r-project.org/web/packages/tm/index.html), [CA](https://cran.r-project.org/web/packages/ca/ca.pdf), [igraph](http://igraph.org/r/)…) and implement some original methods (Reinert classification, similarity networks). Our use of Iramuteq was very straightforward: we ran the Reinert classification with the default settings (unsupervised training on segments of 40 words), which were fine for our limited sample but could stress standard hardware on wider corpus (we had actually meet this problem on an unrelated project dealing with several hundred pieces of litterature). Iramuteq then produces a set of visual and data files in a directory.
+[Iramuteq](http://www.iramuteq.org/) is a free interface of the R langage for textual analysis. It offers an efficient pipelpine for existing R functions (in library such as [TM](https://cran.r-project.org/web/packages/tm/index.html), [CA](https://cran.r-project.org/web/packages/ca/ca.pdf), [igraph](http://igraph.org/r/)…) and implement some original methods (Reinert classification, similarity networks). Our use of Iramuteq was very straightforward: we ran the Reinert classification with the default settings (unsupervised training on segments of 40 words), which were fine for our limited sample but could stress standard hardware on wider corpus (we had actually meet this problem on an unrelated project dealing with several hundred pieces of litterature). Iramuteq then produces a set of visual and data files in a directory. The picture, below, is the standard correspondence analysis on the Google News corpus with the colors mapping the class identified by the Reinert method.
+
+<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/AFC2DL.png></p>
+
+###R
+
+While the Iramuteq standard visualization were quite informative during the analyzes process, they do not render so well for publication purposes. For instances, the words are too numerous (and, consequently, too small). In order to avoid overlap, coordinates are altered (which may result, sometimes, in slightly inaccurate representation of proximity from word to another). Finally, Iramuteq also produces a correspondence analysis of variable (either "year" ou "media" in our case) but keeps the name of the variable as a prefix. This disposition greatly complicates the reading while it could be much more efficient to focuse the dataviz on only one variable.
+
+
+
+
