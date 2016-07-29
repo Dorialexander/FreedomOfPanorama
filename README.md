@@ -77,4 +77,4 @@ All the HTML files of the articles of Europresse were saved locally. The functio
 
 ###Iramuteq
 
-Iramuteq is a free interface of the R langage for textual analysis.
+[Iramuteq](http://www.iramuteq.org/) is a free interface of the R langage for textual analysis. It offers an efficient pipelpine for existing R functions (in library such as [TM](https://cran.r-project.org/web/packages/tm/index.html), [CA](https://cran.r-project.org/web/packages/ca/ca.pdf), [igraph](http://igraph.org/r/)…) and implement some original methods (Reinert classification, similarity networks). Our use of Iramuteq was very straightforward: we ran the Reinert classification with the default settings (unsupervised training on segments of 40 words), which were fine for our limited sample but could stress standard hardware on wider corpus (we had actually meet this problem on an unrelated project dealing with several hundred pieces of litterature). Iramuteq then produces a set of visual and data files in a directory.
