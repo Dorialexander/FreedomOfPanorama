@@ -85,6 +85,12 @@ All the HTML files of the articles of Europresse were saved locally. The functio
 
 While the Iramuteq standard visualization were quite informative during the analyzes process, they do not render so well for publication purposes. For instances, the words are too numerous (and, consequently, too small). In order to avoid overlap, coordinates are altered (which may result, sometimes, in slightly inaccurate representation of proximity from word to another). Finally, Iramuteq also produces a correspondence analysis of variable (either "year" ou "media" in our case) but keeps the name of the variable as a prefix. This disposition greatly complicates the reading while it could be much more efficient to focuse the dataviz on only one variable.
 
+<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/AFC2DEL.png width="520px"></p>
 
+Yet, we are not constrained on Iramuteq default visual settings. Given that the application is merely an interface for R, the data can easily be downloaded on R studio with the command :
 
+```R
+load("path_to_iramuteq_files")
+```
 
+The script "[panorama.R]()" includes a set of functions to generate ggplot from Iramuteq data. 
