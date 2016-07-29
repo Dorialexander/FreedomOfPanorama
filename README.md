@@ -38,15 +38,15 @@ Therefore, each corpus will be considered on different ground. While Europresse 
 All the result pages (in html) of the query "freedom of panorama" were registered locally. Several parsing functions (within [extract_ggnews.py](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/extract_ggnews.py)) then allowed to transform the html structure as a dataset of links, article title, date and media name. In the same manneer we have removed some duplicated results (by checking if a title were already in the dataset). Some time, Google News issued results that did not includ the proper name "freedom of panorama" and usually talked about a different topic (albeit somewhat linked). We have consequently removed every result that did not mention the expression "freedom of panorama" in the snippets. 
 
 ```python
-					#"anorama" rather than panorama as a lazy way to avoid taking caps into account…
-					if "anorama" in snippet:
-						href = link['href']
-						media = gnew.find('cite', '_Rm').getText()
-						try:
-							date = gnew.find('span', 'f').getText()
-						except:
-							date = "unknown"
-						print(fullid + ";" + title + ";" + href + ";" + media + ";" + date)
+#"anorama" rather than panorama as a lazy way to avoid taking caps into account…
+if "anorama" in snippet:
+	href = link['href']
+	media = gnew.find('cite', '_Rm').getText()
+	try:
+		date = gnew.find('span', 'f').getText()
+	except:
+		date = "unknown"
+	print(fullid + ";" + title + ";" + href + ";" + media + ";" + date)
 ```
 
 The initial corpus of almost 160 articles was therefore reduced by about one fourth to 115 articles to create the dataset "[gg_news_all_language.csv](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/ggnews_all_languages.csv)".
