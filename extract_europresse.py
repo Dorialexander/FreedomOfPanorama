@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import os, codecs, re
-from fuzzywuzzy import fuzz
 
 
 def ira_article(com_dir):
