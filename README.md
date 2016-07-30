@@ -90,7 +90,7 @@ While the Iramuteq standard visualization were quite informative during the anal
 Yet, we are not constrained on Iramuteq default visual settings. Given that the application is merely an interface for R, the data can easily be downloaded on R studio with the command :
 
 ```R
-load("path_to_iramuteq_files")
+load("RData.RData")
 ```
 
 The script "[panorama.R]()" includes a set of functions to generate [ggplot](https://cran.r-project.org/web/packages/ggplot2/index.html) graphics from Iramuteq data. 
