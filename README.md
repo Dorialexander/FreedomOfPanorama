@@ -93,4 +93,13 @@ Yet, we are not constrained on Iramuteq default visual settings. Given that the 
 load("RData.RData")
 ```
 
-The script "[panorama.R]()" includes a set of functions to generate [ggplot](https://cran.r-project.org/web/packages/ggplot2/index.html) graphics from Iramuteq data. 
+The script "[panorama.R](https://github.com/Dorialexander/FreedomOfPanorama/blob/master/panorama.R)" includes a set of two functions to generate [ggplot](https://cran.r-project.org/web/packages/ggplot2/index.html) graphics from Iramuteq data (that have to be loaded using the previous command). Logically enough, iraMedia works on the media results, and iraWord on the word results. In both case, setting the plot variable to true generates a ggplot as well as the table of data. For example, using theses commands will store the results in MediaPanorama and WordPanorama and creates the two correspondence analysis plot (with clusters colors) featured in the original article.
+
+```R
+MediaPanorama <- iraMedia(plot = TRUE)
+WordPanorama <- iraWord(plot=TRUE)
+```
+
+The function "iraWord" comes with an additionnal parameter : numWords allows to indicate the number of words to figure in the graphic (according to the ranking of the most "explicative" words used by Iramuteq). Accordingly most "crowded" graphic are richer but harder to read. We used here numWords = 100. With numWords = 50 you would get this kind of graphic:
+
+
