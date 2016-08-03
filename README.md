@@ -100,7 +100,7 @@ MediaPanorama <- iraMedia(plot = TRUE)
 WordPanorama <- iraWord(plot = TRUE)
 ```
 
-<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/panorama_result.png width="520px"></p>
+<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/panorama_result.png width="720px"></p>
 
 The function "iraWord" comes with an additionnal parameter : numwords allows to indicate the number of words to figure in the graphic (according to the ranking of the most "explicative" words used by Iramuteq). Accordingly most "crowded" graphic are richer but harder to read. We used here numwords = 100. With numwords = 50 you would get this kind of graphic:
 
@@ -108,4 +108,4 @@ The function "iraWord" comes with an additionnal parameter : numwords allows to 
 WordPanorama <- iraWord(plot = TRUE, numwords = 50)
 ```
 
-<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/word_50.png width="520px"></p>
+<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/word_50.png width="420px"></p>
