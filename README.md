@@ -97,9 +97,15 @@ The script "[panorama.R](https://github.com/Dorialexander/FreedomOfPanorama/blob
 
 ```R
 MediaPanorama <- iraMedia(plot = TRUE)
-WordPanorama <- iraWord(plot=TRUE)
+WordPanorama <- iraWord(plot = TRUE)
 ```
 
-The function "iraWord" comes with an additionnal parameter : numWords allows to indicate the number of words to figure in the graphic (according to the ranking of the most "explicative" words used by Iramuteq). Accordingly most "crowded" graphic are richer but harder to read. We used here numWords = 100. With numWords = 50 you would get this kind of graphic:
+<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/panorama_result.png width="520px"></p>
 
+The function "iraWord" comes with an additionnal parameter : numwords allows to indicate the number of words to figure in the graphic (according to the ranking of the most "explicative" words used by Iramuteq). Accordingly most "crowded" graphic are richer but harder to read. We used here numwords = 100. With numwords = 50 you would get this kind of graphic:
 
+```R
+WordPanorama <- iraWord(plot = TRUE, numwords = 50)
+```
+
+<p align="center"><img src=https://github.com/Dorialexander/FreedomOfPanorama/raw/master/word_50.png width="520px"></p>
